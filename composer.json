@@ -1,0 +1,30 @@
+{
+    "name": "Gorotet/driftledger",
+    "description": "DriftLedger - A powerful PHP application",
+    "type": "project",
+    "require": {
+        "php": ">=8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Driftledger\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Driftledger\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gorotet"
+        }
+    ]
+}
